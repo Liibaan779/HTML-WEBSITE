@@ -1,0 +1,48 @@
+@import url('https://fonts.googleepis.com/css?family=open+sans');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans',sans-serif;
+    color: #222;
+    padding-bottom: 50px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}
+.nav {
+    position: fixed;
+    background-color: #222;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 ;
+
+}
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav a {
+    color:#fff;
+    text-decoration: none;
+    padding: 8px 18px;
+
+}
+.nav a:hover {
+    color: #c0392b;
+
+}
